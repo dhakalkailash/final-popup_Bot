@@ -79,10 +79,20 @@
 .chat-bar-icons {
     display: flex;
     justify-content: space-evenly;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     width: 25%;
     float: right;
     font-size: 20px;
+    border: none;
+    outline: none;
+   
+}
+#chat-icon {
+    padding: 0;
+    background: none;
+    outline: none;
+    color: aqua;
+
 }
 
 #chat-icon:hover {
